@@ -25,8 +25,6 @@ def binary_to_decimal(input):
 
     return decimal
   
-
-
 def decimal_to_binary(input):
   binary = ''
   input = int(input)
@@ -109,7 +107,6 @@ def hex_to_decimal(input):
 
   return decimal
 
-
 def decimal_to_hex(input):
   hex_array = []
   hex_letter = {10:'A', 11:'B', 12:'C', 13:'D', 14:'E', 15:'F'}
@@ -148,6 +145,7 @@ def decimal_to_hex(input):
 
   return hex
 
+
 ###Converter_check###
 
 def converter_check(input):
@@ -178,7 +176,8 @@ def converter_check(input):
         return 'octalordecimal' ,input   
       
   return 'decimal', input  
- 
+
+
  ### Converter ###
     
 def converter(input):
@@ -273,6 +272,7 @@ def enter_input():
     else:
       print('')
       converter(converter_check(input_to_convert))
+
 
 #Converter(Converter_check('1F')) # hex
 #Input = 1F => hex
