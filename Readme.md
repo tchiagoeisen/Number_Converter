@@ -38,4 +38,4 @@ E = 14
 F = 15
 
 ## Credits
-This was pratice project in python. I added some print() statements to checkout the conversions. <br>The main goal was that the input could be any value, if it is not possible to convert the program should to ajust it.
+This was pratice project in python. I added some print() statements to checkout the conversions. <br>The main goal was that the input could be any value, if it is not possible to convert the program should ajust it.
