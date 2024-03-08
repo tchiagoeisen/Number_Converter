@@ -5,6 +5,8 @@ This is a project to convert numbers. According with the input the number will b
 
 Numbers types => Decimal Binary Octal Hexadecimal
 
+This was pratice project in python. I added some print() statements to checkout the conversions. <br>The main goal was that the input could be any value, if it is not possible to convert the program should ajust it.
+
 ## The Project
 The input should be checked and recognized before the convertion. If there is a invalid value, it should be removed from the input. Some inputs can be two types of numbers for example octal and decimal, in this case both numbers should be recognized and converted. A binary number that begin with '0' will be only a binary number.
 
@@ -37,5 +39,3 @@ D = 13
 E = 14
 F = 15
 
-## Credits
-This was pratice project in python. I added some print() statements to checkout the conversions. <br>The main goal was that the input could be any value, if it is not possible to convert the program should ajust it.
